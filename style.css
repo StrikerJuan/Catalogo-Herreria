@@ -353,6 +353,10 @@ body {
   justify-content: space-between;
 }
 
+.dir{
+  max-width: 350px;
+}
+
 .txt{
   color: white;
 }
@@ -368,6 +372,10 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 15px;
+}
+
+.txt .mail{
+  text-transform: lowercase;
 }
 
 .map{
