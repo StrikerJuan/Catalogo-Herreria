@@ -376,6 +376,7 @@ body {
 
 .txt .mail{
   text-transform: lowercase;
+
 }
 
 .map{
@@ -503,12 +504,13 @@ body {
   }
 
   .info{
-    padding: 30px;
+    padding: 10px;
     flex-direction: column;
   }
 
   .info-img{
     width: 100%;
+    /* max-width: 350px; */
     text-align: center;
   }
 
@@ -524,7 +526,7 @@ body {
   }
 
   .info-txt h2{
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .info-txt p{
@@ -566,4 +568,16 @@ body {
   .links h4{
     margin: 25px 0 10px 0;
   }
+
+  .txt .mail{
+    font-size: 16px;
+  }
+
+  .map{
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+  }
+
+  
 }
