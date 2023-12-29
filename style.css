@@ -181,8 +181,13 @@ body {
 }
 
 .slider-img img{
-  margin-right: 225px;
-  width: 550px;
+  /* margin-right: 150px; */
+  /* width: 550px; */
+  max-width: 500px;
+  height: 500px;
+  padding-left: 60px;
+  display: flex;
+  align-items: center;
 }
 
 .products{
@@ -379,9 +384,9 @@ body {
 
 }
 
-.map{
+/* .map{
   filter: grayscale(100%) invert(92%) contrast(93%);
-}
+} */
 
 .footer{
   padding: 100px 0;
