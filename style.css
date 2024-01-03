@@ -75,7 +75,7 @@ body {
 }
 
 .logo-2{
-  width: 150px;
+  width: 75px;
 }
 
 .socials{
@@ -392,6 +392,7 @@ body {
   padding: 100px 0;
   display: flex;
   justify-content: space-between;
+  background-color: #0d0d0d;
 }
 
 .links h4{
@@ -405,6 +406,12 @@ body {
   font-size: 16px;
   margin-bottom: 5px;
   display: inline-block;
+}
+
+.footer h2{
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 25px;
 }
 
 /* RESPONSIVO */
