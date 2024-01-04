@@ -427,7 +427,7 @@ body {
   }
 
   .logo-1{
-    width: 100px;
+    width: 75px;
   }
   
   .logo-2{
@@ -480,8 +480,9 @@ body {
   }
 
   .btn-1{
-    padding: 10px 25px;
+    /* padding: 10px 25px; */
     font-size: 14px;
+    align-items: center;
   }
 
   .slider-img{
@@ -490,8 +491,18 @@ body {
   }
 
   .slider-img img{
-    margin-right: 0;
-    width: 300px;
+    /* margin-right: 0; */
+    /* width: 300px; */
+    align-items: center;
+    max-height: 300px;
+  }
+
+  .imprenta img{
+    /* margin-right: 0; */
+    /* width: 300px; */
+    align-items: center;
+    max-height: 300px;
+    max-width: 300px;
   }
 
   .swiper-horizontal > .swiper-pagination-bullets,
@@ -591,5 +602,19 @@ body {
     align-items: center;
   }
 
-  
+  .mySwiper-1 .swiper-button-prev{
+    padding-top: 14rem;
+  }
+  .mySwiper-1 .swiper-button-next{
+    padding-top: 14rem;
+  }
+
+  .mySwiper-2 .swiper-button-prev{
+    padding-top: 4rem;
+    padding-right: 2rem;
+  }
+  .mySwiper-2 .swiper-button-next{
+    padding-top: 4rem;
+    padding-left: 2rem;
+  }
 }
